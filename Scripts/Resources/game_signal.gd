@@ -1,7 +1,7 @@
 class_name GameSignal extends Resource
 
 var game_signal_listeners: Array[GameSignalListener] = []
-signal test_signal
+#signal test_signal   testing not working
 
 func raise() -> void:
 	for n in range(game_signal_listeners.size(),0,-1):
